@@ -1,0 +1,11 @@
+[project]
+name = "halo-5"
+version = "0.1.0"
+description = "Grinding out achievements"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "click>=8.4.2",
+    "pydirectinput-rgx>=2.1.3",
+    "ruff>=0.15.20",
+]
