@@ -16,7 +16,7 @@ def setup_logging() -> None:
 def _keystroke(key: str) -> None:
     """Presses a key down and then releases it."""
     pydirectinput.keyDown(key)
-    time.sleep(0.15)  # Small delay to ensure the key press is registered
+    time.sleep(0.2)  # Small delay to ensure the key press is registered
     pydirectinput.keyUp(key)
 
 
